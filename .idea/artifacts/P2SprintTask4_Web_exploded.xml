@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="P2SprintTask4:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/P2SprintTask4_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="P2SprintTask4/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="P2SprintTask4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
