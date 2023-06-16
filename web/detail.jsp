@@ -42,7 +42,7 @@
             </select>
         </div>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
-        <button type="submit" class="btn btn-primary">Сохранить</button>
+        <button type="submit" class="btn btn-success">Сохранить</button>
     </form>
 </div>
 
