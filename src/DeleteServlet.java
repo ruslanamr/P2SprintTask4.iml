@@ -13,7 +13,5 @@ public class DeleteServlet extends HttpServlet {
         Long id = Long.parseLong(req.getParameter("id"));
         DbManager.deleteTask(id);
         resp.sendRedirect("/home");
-
-        //комментарий для проверки
     }
 }
