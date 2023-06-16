@@ -10,7 +10,7 @@ import java.io.IOException;
 public class DeleteServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Long id = Long.parseLong(req.getParameter("id")); //изменения Pr
+        Long id = Long.parseLong(req.getParameter("id")); //изменения Pr4
         DbManager.deleteTask(id);
         resp.sendRedirect("/home");
     }
